@@ -1,13 +1,16 @@
+/* Adjusts website to fill whole viewport */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color to an off-gray */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styles header with extra padding better looking text */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Forces header to contain list components. The list components are ID links to each of the three sections of content */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the 'seo' of 'Horiseon' to be a different color than the rest of the logo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Gives the nav relative links extra padding, improves text, and orders them to allign from the right of the header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +39,23 @@ body {
 }
 
 /* Displays header list horizontally across nav */
-.header nav ul {
-    list-style-type: none;
-}
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets the a-tag default to white text without underline. a-tags only exist in nav. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets paragraph default font size to 16px*/
 p {
     font-size: 16px;
 }
 
+/* Formats background image to be contained in set space in between header and the rest of website. Image spans entire width of viewport. */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,12 +65,14 @@ p {
     background-position: center;
 }
 
+/* Formats content to be displayed from the left spanning 75% of the viewport */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Uniformally formats content-titles with more padding, height, and different font style and font color */
 .content-title {
     margin-bottom: 20px;
     padding: 50px;
@@ -75,25 +82,30 @@ p {
     color: #ffffff;
 }
 
+/* Uniformally increases height of the decorative images of each content section */
 .content-title img {
     max-height: 200px;
 }
 
+/* Uniformally increases font size and bottom margin of text in content title */
 .content-title h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Floats 'float-left' classes to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats 'float-right' classes to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Formats the aside to the right of the content while increasing padding, right margin, and restyling font and background color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,23 +117,27 @@ p {
     background-color: #2589bd;
 }
 
+/* Uniformally formats all benefit categories with extra bottom margin and changes color of all font within 'benefits' */
 .benefit-categories {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Uniformally formats benefit-categories headers with extra bottom margin, centered text, and increased font size */
 .benefit-categories h2 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.17em;
 }
 
+/* Uniformally centers benefit-categories images within the aside */
 .benefit-categories img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Adds extra padding to footer while centering and changing font style of text */
 .footer {
     padding: 30px;
     clear: both;
@@ -129,6 +145,8 @@ p {
     text-align: center;
 }
 
+/* Changes font size of foot h3 */
 .footer h3 {
     font-size: 20px;
+    font-weight: bold;
 }

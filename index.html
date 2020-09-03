@@ -3,25 +3,30 @@
 
 <!-- To do: Check h tags, check strucute (more details in readme), comment out, write readme -->
 
+<!-- Links CSS style sheet to html -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Concise descriptive title-->
+    <!-- Name of company used as name of website -->
     <title>Horiseon</title>
 </head>
 
 <body>
+    <!-- Contains company name/logo and links to the three content sections -->
     <header class="header">
-        <!-- is there a cleaner way? -->
+        <!-- Displays company name/logo with multiple colors -->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
+                <!-- Scrolls webpage down to search engine optimization info -->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
+                <!-- Scrolls webpage down to online reputation management info -->
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
+                <!-- Scrolls webpage down to social media marketing info -->
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
@@ -29,12 +34,13 @@
         </nav>
     </header>
 
+    <!-- Displays background picture of website in ordered box -->
     <section class="hero" aria-label="consultation meeting"></section>
 
+    <!-- Contains three sections labeled 'content' with one header, one paragraph, and one decorative image each -->
     <main class="content">
-        <!-- ID used for relative linking when clicking buttons in header -->
+        <!-- Search engine optimization: ID used for relative linking when clicking buttons in nav -->
         <section id="search-engine-optimization" class="content-title">
-            <!-- Including alt tag for accessibility -->
             <img class="float-left" src="./assets/images/search-engine-optimization.jpg"
                 alt="Attributes of search engine optimzation drawn on notebook">
             <h2>Search Engine Optimization</h2>
@@ -44,6 +50,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </section>
+        <!-- Online reputation management: ID used for relative linking when clicking buttons in nav -->
         <section id="online-reputation-management" class="content-title">
             <img class="float-right" src="./assets/images/online-reputation-management.jpg"
                 alt="Laptop on a browser that reads 'Reputation'">
@@ -54,6 +61,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </section>
+        <!-- Social media marketing: ID used for relative linking when clicking buttons in nav -->
         <section id="social-media-marketing" class="content-title">
             <img class="float-left" src="./assets/images/social-media-marketing.jpg"
                 alt="Graphic of varius forms of social media">
@@ -66,8 +74,10 @@
         </section>
     </main>
 
+    <!-- Contains 3 sections labeled 'benefits' with one header, one paragraph, and one decorative image each -->
     <aside class="benefits">
         <section class="benefit-categories">
+            <!-- Info on 'lead generation' benefit -->
             <h2>Lead Generation</h2>
             <img src="./assets/images/lead-generation.png" alt="gear leading down to money">
             <p>
@@ -76,6 +86,7 @@
             </p>
         </section>
         <section class="benefit-categories">
+            <!-- Info on 'brand awareness' benefit -->
             <h2>Brand Awareness</h2>
             <img src="./assets/images/brand-awareness.png" alt="person with lightbulb for a head">
             <p>
@@ -84,6 +95,7 @@
             </p>
         </section>
         <section class="benefit-categories">
+            <!-- Info on 'cost management' benefit -->
             <h2>Cost Management</h2>
             <img src="./assets/images/cost-management.png" alt="gear with dollar signs around it">
             <p>
@@ -93,8 +105,8 @@
         </section>
     </aside>
 
+    <!-- Contains copyright and company signature -->
     <footer class="footer">
-        <!-- make sure h4 is what I need -->
         <h3>Made with ❤️️ by Horiseon</h3>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
